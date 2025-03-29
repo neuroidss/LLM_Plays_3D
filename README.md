@@ -2,7 +2,7 @@
 
 https://neuroidss.github.io/LLM_Plays_3D
 
-https://github.com/neuroidss/LLM_Plays_3D/blob/main/Screencast_from_2025-03-29_22-28-54.gif
+[https://github.com/neuroidss/LLM_Plays_3D/blob/main/Screencast_from_2025-03-29_22-28-54.gif]
 
 ```
 make game where llm controlling 3d world and responding to interaction with user avatar, so llm playing with user. game for llm should be in continuous messages context with ability of interaction with user in chat. use tools calling. don't invent fake moves when llm error, try again until correct llm response. use threejs >=0.140.0. make keyboard&mouse, real gamepad and multitouch onscreen gamepad joysticks controls for 3d move and 3d rotate, should be desktop and mobile ready. make sure not using browser alert() popups. add some sounds, but without external sound resources.
