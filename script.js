@@ -1030,7 +1030,7 @@ function updatePlayer(delta) {
 
     // --- Combine Inputs ---
     // Keyboard / Button Input (Prioritized if held)
-    let moveZ = controlsState.forward - controlsState.backward;
+    let moveZ = -(controlsState.forward - controlsState.backward);
     let moveX = controlsState.right - controlsState.left;
     let rotateY = controlsState.rotateRight - controlsState.rotateLeft;
 
